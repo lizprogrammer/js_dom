@@ -8,3 +8,7 @@ console.log('the parent element is: ', bookList.parentElement.parentElement);
 
 //Get children
 console.log(bookList.childNodes);
+
+console.log(bookList.firstElementChild);
+
+console.log(bookList.children);
