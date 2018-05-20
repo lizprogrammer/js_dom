@@ -12,3 +12,5 @@ console.log(bookList.childNodes);
 console.log(bookList.firstElementChild);
 
 console.log(bookList.children);
+
+
