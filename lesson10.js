@@ -5,4 +5,4 @@ list.addEventListener('click', function(e){
         const li = e.target.parentElement;
         list.removeChild(li);
     }
-})
+});
