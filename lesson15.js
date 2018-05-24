@@ -8,9 +8,7 @@ list.addEventListener('click', function(e){
     }
 });
 
-
-
-// Add book list
+// Add books
 // document.forms
 
 const addForm = document.forms['add-book'];
@@ -23,7 +21,7 @@ addForm.addEventListener('submit', function(e){
 	// create elements
 	const li = document.createElement('li');
 	const bookName = document.createElement('span');
-	const deleteBtn = document.createElement('span');
+	const deleteBtn = document.createElement('button');
 
     // add content
     deleteBtn.textContent = 'delete';
@@ -34,6 +32,17 @@ addForm.addEventListener('submit', function(e){
 	li.appendChild(deleteBtn);
 	list.appendChild(li);
 
-
 });
 
+// hide books
+const hideBox = document.querySelector('#hide');
+hideBox.addEventListener('change', function(e){
+    if(hideBox.checked){
+        list.style.display = "none";
+
+    }
+    else{
+         list.style.display = "initial";
+    }
+
+});
