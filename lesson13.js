@@ -1,3 +1,10 @@
+
+var li = document.querySelector('li:last-child');
+console.log(li);
+
+li.style.color = "red";
+
+
 // Delete books
 const list = document.querySelector('#book-list ul');
 
