@@ -1,16 +1,34 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @lizprogrammer
+Sign out
+0
+0 0 jfdoyle3/JavaScript-DOM
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+JavaScript-DOM/index.html
+00f4ce5  11 days ago
+@jfdoyle3 jfdoyle3 Updated code to lesson 17
+     
+64 lines (63 sloc)  1.97 KB
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <link href="styles.css" rel="stylesheet" />
-    <title>CareerDevs JavaScript DOM Tutorials - Arnell Milhouse</title>
+    <title>JavaScript DOM Tutorials</title>
   </head>
   <body>
   	<div id="wrapper">
 	    <header>
 	    	<div id="page-banner">
-	    		<h1 class="title" id="mainTitle">MainTitle</h1>
-          <p id="subTitle">Subtitle Goes Here</p>
+	    		<h1 class="title">Bookorama</h1>
+          <p>Books for Ninjas</p>
           <form id="search-books">
             <input type="text" placeholder="Search books..." />
           </form>
@@ -38,30 +56,39 @@
 	    	</ul>
 	    </div>
 	    <form id="add-book">
-			<input type = "checkbox" id = "hide"/>
-			<label for="hide">Hide all books</label>
+        <input type="checkbox" id="hide" />
+        <label for="hide">Hide all books</label>
 	    	<input type="text" placeholder="Add a book..." />
 	    	<button>Add</button>
 	    </form>
-
-		<div id = "tabbed-content">
-			<ul class = "tabs">
-				<li data-target = "#about" class = "active">About</li>
-				<li data-target = "#contact">Contact</li>
-			</ul>
-			<div class = "panel active" id = "about">
-				<p>Content for Contact tab...</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vestibulum id nunc porta urna off</p>
-			</div>
-			<div class = "panel" id = "contact">
-				<p>Content for Contact tab...</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Vestibulum id nunc porta urna off</p>
-			</div>
-		</div>
-
+      <div id="tabbed-content">
+        <ul class="tabs">
+          <li data-target="#about" class="active">About</li>
+          <li data-target="#contact">Contact</li>
+        </ul>
+        <div class="panel active" id="about">
+          <p>Content for about tab...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare rhoncus. Ut convallis ante at.</p>
+        </div>
+        <div class="panel" id="contact">
+          <p>Content for contact tab...</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare rhoncus. Ut convallis ante at.</p>
+        </div>
+      </div>
     </div>
-    	<!-- errors be here -->
-
-
+    <script src="lesson17.js"></script>
   </body>
 </html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
